@@ -7,7 +7,7 @@ const client = require('twilio')(accountSid, authToken);
 client.messages
       .create({
          body: 'Phantom Menace was clearly the best of the prequel trilogy.',
-         messagingServiceSid: 'MG9752274e9e519418a7406176694466fa',
+         messagingServiceSid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
          to: '+441632960675'
        })
       .then(message => console.log(message.sid))

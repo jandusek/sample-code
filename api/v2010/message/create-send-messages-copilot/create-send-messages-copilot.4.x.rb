@@ -10,6 +10,6 @@ client = Twilio::REST::Client.new account_sid, auth_token
 
 body = 'Phantom Menace was clearly the best of the prequel trilogy.'
 client.account.messages
-      .create(messaging_service_sid: 'MG9752274e9e519418a7406176694466fa',
+      .create(messaging_service_sid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
               to: '+441632960675',
               body: body)
